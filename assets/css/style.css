@@ -1,0 +1,120 @@
+body {
+    background-image: url("../images/geometry2.png");
+    margin: 0;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #859c87;
+}
+
+hr {
+    border-color: #445a54;
+}
+
+a:link {
+    color: #859c87;
+    }
+    a:visited {
+    color: #859c87;
+    }
+    a:hover {
+    color: #859c87;
+    }
+
+.navigation {
+    background-color: white;
+    border: 1px solid #cccccc;
+    color: #cccccc;
+    width: 100%;
+}
+
+.logo {
+    color: #445a54;
+    margin-left: 260px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.logo, .menu {
+    display: inline-block;
+}
+
+.menu {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    margin: 2px;
+    margin-right: 280px;
+}
+
+.menu ul {
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 15px;
+}
+
+.menu ul a {
+    text-decoration: none;
+}
+
+.about {
+    width: 960px;
+    background-color: white;
+    color: #445a54;
+    border: 1px solid #cccccc;
+    margin-top: 30px;
+    margin-left: 260px;
+    margin-bottom: 30px;
+    padding: 30px;
+}
+
+.textWrap {
+    float: left;
+    margin: 20px;
+}
+
+input[type=text], select, textarea {
+    clear: both;
+    width: 100%; 
+    padding: 12px;  
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  input[type=submit] {
+    background-color: #445a54;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #c6d0ca;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+
+.footer {
+    background-color: #445a54;
+    border-top: 8px solid #859c87;
+    color: #cccccc;   
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
