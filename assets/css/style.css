@@ -35,7 +35,7 @@ a:link {
 
 .logo {
     color: #445a54;
-    margin-left: 260px;
+    margin-left: 230px;
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -48,12 +48,10 @@ a:link {
     font-family: Arial, Helvetica, sans-serif;
     float: right;
     margin: 2px;
-    margin-right: 280px;
-    position: relative; 
+    margin-right: 180px;
 }
 
 .menu ul {
-    padding-left: 0px;
     list-style-type: none;
 }
 
@@ -122,42 +120,46 @@ input[type=text], select, textarea {
 }
 
 
-@media only screen and (max-width: 320px) {
-.navigation {
-    width: 500px;
-}
 
+@media screen and (max-width: 980px) { 
 .about {
-    width: 235px;
-    margin-left: 10px;
-}  
-
-.logo{
-    margin-left: 20px;
-    padding-left: 30px;
-    padding-right: 50px;
+    width: 555px;
+    margin-left: 40px;
+    }
 }
-}
-
 
 @media screen and (max-width: 768px) {
-.logo{
-    margin-left: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.menu {
-    float: none;
-    margin: 2px;
-    margin-left: 40px;
-}
-
-.footer {
+    .logo{
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
     
-}
+    .menu {
+        float: none;
+        margin: 2px;
+        margin-left: 40px;
+    }
+    
+    .about {
+        width: 635px;
+        margin-left: 10px;
+    }
 
-.about {
-    width: 430px;
-    margin-left: 10px;
+@media screen and (max-width: 640px) { 
+    .logo{
+        margin-left: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .menu {
+        float: none;
+        margin: 2px;
+        margin-left: 20px;
+    }
+    
+    .about {
+        width: 220px;
+        margin-left: 10px;
 }
